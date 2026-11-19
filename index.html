@@ -95,13 +95,13 @@ main {
 
 .icons { margin-top: 22px; display: flex; gap: 14px; }
 .icons a {
-  width: 46px; height: 46px; border-radius: 50%;
+  width: 48px; height: 48px; border-radius: 50%;
   display: grid; place-items: center;
   color: var(--cream);
   border: 1.5px solid rgba(237,234,220,.55);
   transition: transform .35s cubic-bezier(.34,1.56,.64,1), background .25s ease, color .25s ease;
 }
-.icons a:hover { transform: translateY(-3px) scale(1.1); background: var(--cream); color: var(--orange); }
+.icons a:hover { transform: translateY(-2px); background: var(--cream); color: var(--orange); }
 .icons svg { width: 22px; height: 22px; fill: currentColor; }
 
 .tagline {
@@ -130,9 +130,9 @@ main {
   background: linear-gradient(100deg, transparent 35%, rgba(248,104,45,.25) 50%, transparent 65%);
   translate: -120% 0;
 }
-.btn:hover { transform: translateY(-4px) scale(1.015); box-shadow: 0 22px 34px -16px rgba(80,20,0,.8); }
+.btn:hover { transform: translateY(-2px); box-shadow: 0 18px 30px -16px rgba(80,20,0,.8); }
 .btn:hover::after { translate: 120% 0; transition: translate .8s ease; }
-.btn:active { transform: scale(.97); }
+.btn:active { transform: translateY(0) scale(.98); }
 .btn:focus-visible, .icons a:focus-visible { outline: 3px solid var(--cream); outline-offset: 3px; }
 
 .btn .ico {
@@ -204,7 +204,7 @@ body.locked { overflow: hidden; }
 .sheet-head h2 { font-size: 26px; font-weight: 700; letter-spacing: .01em; }
 .sheet-head p { margin-top: 2px; font-size: 13px; color: #4F6F5B; }
 .close {
-  width: 42px; height: 42px; border-radius: 50%; border: 0; cursor: pointer; flex: none;
+  width: 44px; height: 44px; border-radius: 50%; border: 0; cursor: pointer; flex: none;
   background: rgba(14,79,43,.1); color: var(--green); font: inherit; font-size: 22px; line-height: 1;
   transition: transform .3s cubic-bezier(.34,1.56,.64,1), background .2s ease;
 }
@@ -231,7 +231,7 @@ body.locked { overflow: hidden; }
 
 .step { display: flex; align-items: center; gap: 4px; }
 .step button {
-  width: 38px; height: 38px; border-radius: 50%; border: 0; cursor: pointer;
+  width: 44px; height: 44px; border-radius: 50%; border: 0; cursor: pointer;
   font: inherit; font-size: 22px; line-height: 1; display: grid; place-items: center;
   background: var(--orange); color: var(--cream);
   transition: transform .25s cubic-bezier(.34,1.56,.64,1), opacity .2s ease;
